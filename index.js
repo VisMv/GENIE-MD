@@ -51,7 +51,7 @@ var prefix = config.PREFIX
 var prefixRegex = config.prefix === "false" || config.prefix === "null" ? "^" : new RegExp('^[' + config.PREFIX + ']');
 
  function genMsgId() {
-  const lt = 'Supunmd';
+  const lt = 'Geniemd';
   const prefix = "3EB";
   const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let randomText = prefix;
@@ -66,11 +66,11 @@ var prefixRegex = config.prefix === "false" || config.prefix === "null" ? "^" : 
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 
-const ownerNumber =  ['94718461889']
+const ownerNumber =  ['94785153782']
 //================== SESSION ==================
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
     if (config.SESSION_ID) {
-      const sessdata = config.SESSION_ID.replace("SUPUN-MD=", "")
+      const sessdata = config.SESSION_ID.replace("GENIE-MD=", "")
       const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
       filer.download((err, data) => {
         if (err) throw err
@@ -88,7 +88,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 async function connectToWA() {;
-	console.log("Connecting SUPUN-MD...");
+	console.log("Connecting GENIE-MD...");
     const {
         version,
         isLatest
@@ -129,8 +129,8 @@ async function connectToWA() {;
                     require("./plugins/" + plugin);
                 }
             });
-            console.log('SUPUN MD Plugins installed ✅')
-            console.log('SUPUN MD Bot connected ✅')
+            console.log('GENIE MD Plugins installed ✅')
+            console.log('GENIE MD Bot connected ✅')
 	 
 
 //================== CONNECT MG ==================
@@ -139,7 +139,7 @@ const prefix = config.PREFIX
 const mode = config.MODE
 const statusRead = config.AUTO_READ_STATUS
 
-let up = "SUPUN-MD FREE BOT CONNECTED SUCCESSFULL\n\nPrefix :-" + prefix + "\nMode :- " + mode + "\nStatus Read :-" + statusRead + "\n\n> ᴘᴀᴡᴇʀᴇᴅ ʙʏ ꜱᴜᴘᴜɴ ᴍᴅ";
+let up = "_*`🙉 CONGRATULATIONS ${pushname} 🙉`*_\n_🧞‍♂️^You Successfully Connected *GENIE-MD* Mini Whatsapp Bot^🧞‍♂️_\nPrefix :-" + prefix + "\nMode :- " + mode + "\nStatus Read :-" + statusRead + "\n\n*𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭* : https://www.youtube.com/@SmartTweak07\n*𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘔𝘰𝘷𝘪𝘦 𝘎𝘳𝘰𝘶𝘱* : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\n\n\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️";
 
 conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         mentionedJid: [''],
@@ -148,15 +148,15 @@ conn.sendMessage(conn.user.id,{ text: up, contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363270086174844@newsletter',
-          newsletterName: "SUPUN MD",
+          newsletterName: "GENIE MD",
           serverMessageId: 999
         },
         externalAdReply: { 
-          title: 'SUPUN MD',
-          body: 'SUPUN MD',
+          title: 'GENIE MD',
+          body: 'GENIE MD',
           mediaType: 1,
           sourceUrl: "",
-          thumbnailUrl: "https://i.ibb.co/bHXBV08/9242c844b83f7bf9.jpg",
+          thumbnailUrl: "https://raw.githubusercontent.com/pakaya0704/Genie-Voice/4af7f85a5ab49ec699274a5af0703a6fc7abee6d/Voice/20250608_175819.jpg?token=GHSAT0AAAAAADFIA6SEU4P3NLPGBT6AQAD22CH2TMQ",
           renderLargerThumbnail: true,
           showAdAttribution: true
         }
@@ -182,7 +182,7 @@ mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
 await conn.readMessages([mek.key])  
 const mnyako = await jidNormalizedUser(conn.user.id)
-await conn.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🧡'}}, { statusJidList: [mek.key.participant, mnyako] })
+await conn.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '💗'}}, { statusJidList: [mek.key.participant, mnyako] })
 }	      
 	    if (mek.key && mek.key.remoteJid === 'status@broadcast') return
             const m = sms(conn, mek)
@@ -200,7 +200,7 @@ const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.
 const metadata = await conn.newsletterMetadata("jid", "120363270086174844@newsletter");
 if (metadata.viewer_metadata === null) {
   await conn.newsletterFollow("120363270086174844@newsletter");
-  console.log("SUPUN MD CHANNEL FOLLOW ✅");
+  console.log("GENIE MD CHANNEL FOLLOW ✅");
 }
 
 
@@ -217,10 +217,10 @@ const body = (type === 'conversation') ? mek.message.conversation : (type === 'e
             const sender = mek.key.fromMe ? (conn.user.id.split(':')[0] + '@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
             const senderNumber = sender.split('@')[0]
             const botNumber = conn.user.id.split(':')[0]
-            const pushname = mek.pushName || 'SUPUN MD'
+            const pushname = mek.pushName || 'GENIE MD'
 	          const ownbot = config.SUDO
 	          const isownbot = ownbot?.includes(senderNumber)
-	          const developers = '94718461889'
+	          const developers = '94785153782'
             const isbot = botNumber.includes(senderNumber)
 	          const isdev = developers.includes(senderNumber) 	    
 	          const botNumber2 = await jidNormalizedUser(conn.user.id)
@@ -316,9 +316,9 @@ conn.forwardMessage = async (jid, message, forceForward = false, options = {}) =
 
 //================== OWN REACT ==================
        
-if(senderNumber.includes("94718461889")){
+if(senderNumber.includes("94752269410")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("🧞‍♂️")
 }
 
 //================== WORK TYPE ==================
@@ -390,9 +390,9 @@ events.commands.map(async (command) => {
     })
 }
 app.get("/", (req, res) => {
-res.send("SUPUN MD CONNECTED SUCCESSFUL💀");
+res.send("GENIE MD CONNECTED SUCCESSFUL🧞‍♂️");
 });
-app.listen(port, () => console.log(`SUPUN MD Server listening on port http://localhost:` + port));
+app.listen(port, () => console.log(`GENIE MD Server listening on port http://localhost:` + port));
 setTimeout(() => {
 connectToWA()
 }, 3000);
