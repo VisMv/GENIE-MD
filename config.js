@@ -45,7 +45,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "94785153782",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "Kushan A Wickramasinghe",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "_`WELCOME TO GENIE-MD 🧞‍♂️`_\n\n╭ᴮᴼᵀ ᴰᴱᵀᴬᴵᴸˢ╯\n▏ `𝘕𝘈𝘔𝘌` : ᴳᴱᴺᴵᴱ-ᴹᴰ\n▏ `𝘜𝘚𝘌𝘙` : ${pushname}\n▏ `𝘖𝘞𝘕𝘌𝘙 𝘕𝘈𝘔𝘌` : ᴋᴜꜱʜᴀɴ ᴀ ᴡɪᴄᴋʀᴀᴍᴀꜱɪɴɢʜᴇ\n▏ `𝘊𝘖𝘕𝘛𝘈𝘊𝘛 𝘖𝘞𝘕𝘌𝘙` : 94785153782\n▏ `𝘗𝘙𝘌𝘍𝘐𝘟` : .\n▏\n▏ `𝘠𝘖𝘜𝘛𝘜𝘉𝘌 𝘊𝘏𝘈𝘕𝘕𝘌𝘓` : https://www.youtube.com/@SmartTweak07\n▏ `𝘔𝘖𝘝𝘐𝘌 𝘎𝘙𝘖𝘜𝘗` : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\𝘯\n\n*Github Repo* : https://github.com/pakaya0704/Media-Genie\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️"
+DESCRIPTION: process.env.DESCRIPTION || "_`WELCOME TO GENIE-MD 🧞‍♂️`_\n\n╭ᴮᴼᵀ ᴰᴱᵀᴬᴵᴸˢ╯\n▏ `𝘕𝘈𝘔𝘌` : ᴳᴱᴺᴵᴱ-ᴹᴰ\n▏ `𝘜𝘚𝘌𝘙` : ${pushname}\n▏ `𝘖𝘞𝘕𝘌𝘙 𝘕𝘈𝘔𝘌` : ᴋᴜꜱʜᴀɴ ᴀ ᴡɪᴄᴋʀᴀᴍᴀꜱɪɴɢʜᴇ\n▏ `𝘊𝘖𝘕𝘛𝘈𝘊𝘛 𝘖𝘞𝘕𝘌𝘙` : 94785153782\n▏ `𝘗𝘙𝘌𝘍𝘐𝘟` : .\n▏\n▏ `𝘠𝘖𝘜𝘛𝘜𝘉𝘌 𝘊𝘏𝘈𝘕𝘕𝘌𝘓` : https://www.youtube.com/@SmartTweak07\n▏ `𝘔𝘖𝘝𝘐𝘌 𝘎𝘙𝘖𝘜𝘗` : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\𝘯\n\n*Github Repo* : https://github.com/pakaya0704/Media-Genie\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/900HyS1X/20250608-175819.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> GENIE 🧞‍♂️",
