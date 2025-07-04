@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94788770020']
+  const ownerNumber = ['94785153782']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -113,21 +113,18 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 SENU-MD BOT* 〕  
-├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT SENU-MD* 
-╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
+  let up = `_*`🙉 CONGRATULATIONS ${pushname} 🙉`*_\n_🧞‍♂️^You Successfully Connected *GENIE-MD* Mini Whatsapp Bot^🧞‍♂️_\nPrefix :-" + prefix + "\nMode :- " + mode + "\nStatus Read :-" + statusRead + "\n\n*𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭* : https://www.youtube.com/@SmartTweak07\n*𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘔𝘰𝘷𝘪𝘦 𝘎𝘳𝘰𝘶𝘱* : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\n\n\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️
 
-- *🖤 Thank You for Choosing SENU-MD!* 
+
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+│    https://whatsapp.com/channel/0029Vb699jD5q08ZvCPaAv2B  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
-╰─🚀 *Powered by JesterTechX*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3y5w8z.jpg` }, caption: up })
+│    https://github.com/kushan-A-wichramasinghe/GENIE-MD  
+╰─🚀 *Powered by Kushan A Wickramasinghe*`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.postimg.cc/900HyS1X/20250608-175819.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -215,7 +212,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('94788770020', '94775877546', '94783613116');
+    const jawadop = ('94785153782', '94752269410', '94785153782');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -783,7 +780,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("SENU MD STARTED ✅");
+  res.send("GENIE MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
