@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `_*`🙉 CONGRATULATIONS ${pushname} 🙉`*_
+  let up = `_*🙉 CONGRATULATIONS ${pushname} 🙉*_
 
 _🧞‍♂️^You Successfully Connected *GENIE-MD* Whatsapp Bot^🧞‍♂️_
 
