@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SENU-MD 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY GENIE-MD 🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -27,13 +27,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/3y5w8z.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.postimg.cc/900HyS1X/20250608-175819.jpg",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "SENU-MD",
+BOT_NAME: process.env.BOT_NAME || "GENIE-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "SENU-MD",
+STICKER_NAME: process.env.STICKER_NAME || "GENIE-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -41,15 +41,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94788770020",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94785153782",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Jᴇꜱᴛᴇʀ TᴇᴄʜX",
+OWNER_NAME: process.env.OWNER_NAME || "Kushan A Wickramasinghe",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴇꜱᴛᴇʀ TᴇᴄʜX*",
+DESCRIPTION: process.env.DESCRIPTION || ""_`WELCOME TO GENIE-MD 🧞‍♂️`_\n\n╭ᴮᴼᵀ ᴰᴱᵀᴬᴵᴸˢ╯\n▏ `𝘕𝘈𝘔𝘌` : ᴳᴱᴺᴵᴱ-ᴹᴰ\n▏ `𝘜𝘚𝘌𝘙` : ${pushname}\n▏ `𝘖𝘞𝘕𝘌𝘙 𝘕𝘈𝘔𝘌` : ᴋᴜꜱʜᴀɴ ᴀ ᴡɪᴄᴋʀᴀᴍᴀꜱɪɴɢʜᴇ\n▏ `𝘊𝘖𝘕𝘛𝘈𝘊𝘛 𝘖𝘞𝘕𝘌𝘙` : 94785153782\n▏ `𝘗𝘙𝘌𝘍𝘐𝘟` : .\n▏\n▏ `𝘠𝘖𝘜𝘛𝘜𝘉𝘌 𝘊𝘏𝘈𝘕𝘕𝘌𝘓` : https://www.youtube.com/@SmartTweak07\n▏ `𝘔𝘖𝘝𝘐𝘌 𝘎𝘙𝘖𝘜𝘗` : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\𝘯\n\n*Github Repo* : https://github.com/pakaya0704/Media-Genie\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️"",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/3y5w8z.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/900HyS1X/20250608-175819.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *SENU-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> GENIE 🧞‍♂️",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -73,7 +73,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94788770020",
+DEV: process.env.DEV || "94785153782",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
