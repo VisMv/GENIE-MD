@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/Gehansasl/JESTER-MD';
+    const githubRepo = 'https://github.com/kushan-A-wichramasinghe/GENIE-MD';
 
     // Check update status
-    let updateMessage = `✅ Your SENU-MD bot is up-to-date!`;
+    let updateMessage = `✅ Your GENIE-MD bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your SENU-MD bot is outdated!
+      updateMessage = `🚀 Your GENIE-MD bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,22 +66,22 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* SENU-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* GENIE-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [JesterTechX](wa.me/94788770020)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [GENIE-MD](wa.me/94785153782)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/3y5w8z.jpg' },
+      image: { url: 'https://i.postimg.cc/900HyS1X/20250608-175819.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363388320701164@newsletter',
-          newsletterName: 'JesterTechX',
+          newsletterJid: '120363401064713119@newsletter',
+          newsletterName: 'Kushan A Wickramasinghe',
           serverMessageId: 143
         }
       }
