@@ -113,8 +113,13 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `_*`🙉 CONGRATULATIONS ${pushname} 🙉`*_\n_🧞‍♂️^You Successfully Connected *GENIE-MD* Mini Whatsapp Bot^🧞‍♂️_\nPrefix :-" + prefix + "\nMode :- " + mode + "\nStatus Read :-" + statusRead + "\n\n*𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭* : https://www.youtube.com/@SmartTweak07\n*𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘔𝘰𝘷𝘪𝘦 𝘎𝘳𝘰𝘶𝘱* : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr\n\n\n> 𝗚_𝗘_𝗡_𝗜_𝗘 - 𝗠𝗗🧞‍♂️
+  let up = `_*`🙉 CONGRATULATIONS ${pushname} 🙉`*_
 
+_🧞‍♂️^You Successfully Connected *GENIE-MD* Whatsapp Bot^🧞‍♂️_
+
+*𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘊𝘩𝘢𝘯𝘯𝘦𝘭* : https://www.youtube.com/@SmartTweak07
+*𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘔𝘰𝘷𝘪𝘦 𝘎𝘳𝘰𝘶𝘱* : https://chat.whatsapp.com/FvhNKzzYw3e6rTf02eqdMr
+*Whatsapp Channel* : https://whatsapp.com/channel/0029Vb699jD5q08ZvCPaAv2B
 
 
 ╭──〔 🔗 *Information* 〕  
