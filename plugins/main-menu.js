@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• 👑 Owner : *${config.OWNER_NAME}*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
 ┃◈┃• 🌐 Platform : *Heroku*
-┃◈┃• 📦 Version : *4.0.0*
+┃◈┃• 📦 Version : *1.0.0*
 ┃◈┃• ⏱️ Runtime : *${runtime(process.uptime())}*
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
